@@ -7,14 +7,14 @@ Multiple sources of data are used to estimate the fraction of irrigated cropland
  - gmiav5: includes global 5 minute resolution data including the total area equipped for irrigation, the total surface water irrigation, and the total groundwater irrigation.  
  - pandas "naturalearth_lowres": a low resolution map including shapefiles for all country boundaries, identified by country code.
 
-** These data are global. A complex series of data manipulations were required to come to a reasonable estimate of the irrigation, and it should be considered a first pass with low confidence in any particular region. **
+**These data are global. A complex series of data manipulations were required to come to a reasonable estimate of the irrigation, and it should be considered a first pass with low confidence in any particular region.**
 
 - **Dataset**: Global Map of Irrigation Areas – Version 5
   - **Definition**: area equipped for irrigation (% of total area)
   - **Spatial resolution**: 5 arcmin
   - **Time Period**: 22005
   - **Source**: Siebert et al. (2013)
-  - **Available online**: [Link](https://data.apps.fao.org/map/catalog/srv/api/records/f79213a0-88fd-11da-a88f-000d939bc5d8)
+  - **Available online**: [Link](https://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/latest-version)
 
 - **Dataset**: AQUASTAT – FAO’s Global Information System on Water and Agriculture
   - **Definition**: 
