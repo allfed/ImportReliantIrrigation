@@ -22,7 +22,7 @@ To set up the project and ensure all modules can be imported correctly, follow t
 2. **Create and Activate a Virtual Environment (optional but recommended):**
 
    ```sh
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
@@ -38,7 +38,7 @@ To set up the project and ensure all modules can be imported correctly, follow t
 
    ```sh
    cd src
-   python import_irrigation_reliant.py
+   python3 import_irrigation_reliant.py
    ```
 
 This setup ensures that all necessary packages are installed and that the Python interpreter can find all modules correctly.

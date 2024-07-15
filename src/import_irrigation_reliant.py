@@ -129,8 +129,6 @@ gdf = gpd.GeoDataFrame(df, crs={"init": "epsg:4326"}, geometry=geometry_sjoin)
 gdf["geometry_plot"] = geometry_plot
 # import the country boundaries, so we can see which country coordinates fall into
 world = gpd.read_file("../data/ne_110m_admin_0_countries.shp")
-print("world.columns")
-print(list(world.columns))
 # get groups of countries which match the coordinates for population losing electricity
 pointInPolys = sjoin(gdf, world)
 
