@@ -1,5 +1,7 @@
 # ImportReliantIrrigation
 
+The repository is intended to estimate the change in irrigated area on a global scale when a long term loss of electricity or diesel occurs. The loss is considered based on current irrigation that is either reliant on electricity or diesel power to operate. 
+
 **These data are global. A complex series of data manipulations were required to come to a reasonable estimate of the irrigation, and it should be considered a first pass with low confidence in any particular region.**
 
 ## Configuration
